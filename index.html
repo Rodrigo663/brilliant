@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilliant</title>
+    <link rel="icon" href="Images/download.jpg">
+    <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!-- BOOTSRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lato:ital@1&family=Montserrat:ital,wght@1,600&family=Roboto&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b8030ed1df.js" crossorigin="anonymous"></script>
+    <script src='script.js'></script>
+
+
+  </head>
+
+<body style="margin: 0;">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Button with the links -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- DIV FOR THE ITEMS-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="#"><img class='icon' src="Images/download.png" alt="icon"></a>
+
+            <ul class="navbar-nav ml-auto">
+                      <li class='nav-item'>
+
+                          <a class='nav-link item' href="#cta">Start</a>
+                      </li>
+                      <li class='nav-item'>
+                          <a class='nav-link item' href="#features">Fields</a>
+      
+                      </li>
+                      <li class='nav-item'>
+                          <a class='nav-link item' href="#places">Places</a>
+                      </li>
+                      <li class='nav-item'>
+                          <a class='nav-link item' href="#about">About</a>
+                      </li>
+          </ul>
+         
+        </div>
+      </nav>
+    <!-- Slogan Section -->
+    <section class='home'>
+        
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-lg-6 col-md-6'>
+                    <h1 class='slogan'>
+                    Test your STEM skills now. More than 20 puzzels for your mind. That´s it.</h1>
+                    <button type="button" onclick="window.location.href='https://apps.apple.com/us/app/brilliant-solve-learn-grow/id913335252'" class='btn btn-dark btn-lg download more'"><i class="fab fa-apple"></i> Download</button>
+                    <button type="button" onclick="window.location.href='https://play.google.com/store/apps/details?id=org.brilliant.android&hl=en_US'" class='btn btn--light btn-lg download less'><i class="fab fa-google-play"></i> Download</button>
+                    
+                </div>
+                <div class='col-lg-6 col-md-6'>
+                    <div>
+                        <img class='rocket' src="Images/rocket.jpg" alt="rocket">
+                        <img class='saturn' src="Images/saturn.png" alt="saturn">   
+                    </div>
+                    
+                </div>
+            </div>
+            
+           
+        </div>
+    </section>
+    <!-- About Section-->
+
+
+    <section id='about'>
+        
+        <div class='container-fluid'>
+         
+
+              <DIV class='row'>
+                  <div class='col-lg-6'>
+                      <img class='skill-img' src="Images/stem.jpg" alt="stem">
+                  </div>
+
+                  <div class='col-lg-6'>
+                      <h3 class='about-head2'>What is STEM?</h3>
+                      <P class='txt'>STEM is a curriculum based on the idea of educating students in four specific disciplines — 
+                        science, technology, engineering and mathematics — in an interdisciplinary and applied approach. 
+                        Rather than teach the four disciplines as separate and discrete subjects, 
+                        STEM integrates them into a cohesive learning paradigm based on real-world applications.</P>
+                  </div>
+
+                  <div class='ro'>
+
+                  </div>
+
+              </DIV>
+
+            
+             
+                  
+             
+                
+            
+        </div>
+       
+    <section id='features'>
+
+     <!-- Feature Section-->
+
+    <div class='container-fluid carousel-cont'>
+        
+                <div id='slider' class='carousel slide move' data-ride='carousel' data-interval='5000'>
+                    <!-- Indicators dot nav -->
+                    <ol class='carousel-indicators'>
+                        <li class='indicator active' data-target='#slider' data-slide-to='0'></li>
+                        <li class='indicator' data-target='#slider' data-slide-to='1'></li>
+                        <li class='indicator'  data-target='#slider' data-slide-to='2'></li>
+                        <li class='indicator' data-target='#slider' data-slide-to='3'></li>
+
+                        
+
+                    </ol>
+                    <!-- wrapper for slides -->
+                    <div class='carousel-inner' role='listbox'>
+                        
+                        <div class='carousel-item active'>
+                            <h1 class='car-head'>Natural Sciences</h1>
+                            <p class='car-txt'>
+                                Biology, Chemistry and Physics are the main fields of natural sciences. Togheter they are the basis fo modern science.
+                            </p>
+                            <img  class='car-img' src="https://i.insider.com/5661f406dd0895ff628b46b9?width=700&format=jpeg&auto=webp" alt="merkel" />
+                            <div class='carousel-caption'>
+                               
+                               
+                            </div>
+                        </div>
+                        
+                        <div class='carousel-item'>
+                            <h1 class='car-head'>Technology</h1>
+                            <p class='car-txt'>
+                                Technology have envolved a lot in the past to became a billionarie industry today. In the future, many companies and many jobs will appear and togheter many futuristc devices.
+                            </p>
+                            <img class='car-img'  src="https://i.insider.com/5661f406dd0895ff628b46b6?width=700&format=jpeg&auto=webp" alt="macron" />
+                            <div class='carousel-caption'>
+                          
+                               
+                            </div>
+                        </div>
+
+                        <div class='carousel-item'>
+                            <h1 class='car-head'>Engineering</h1>
+                            <p class='car-txt'>
+                                Engineers use scientific knowledge to solve pratical problems. From buildings to rockets, engineers are able to build everything and that´s why engineering is a broad area, with many opportunities.
+                            </p>
+
+                            <img  class='car-img' src="https://meche.mit.edu/sites/default/files/MIT-SangbaeKim-A1-1024.jpg" class="d-block w-100" alt="...">
+                            <div class='carousel-caption'>
+                            </div>
+                        </div>
+
+                        <div class='carousel-item'>
+                            <h1 class='car-head'>Mathematics</h1>
+                            <p class='car-txt'>The base of everything, and probably the most important subject in the school. No doubt to master in any STEM field, a basic mathematical knowledge is essential.</p>
+                            <img class='car-img' src="http://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/MIT-Profile-Yun-01_0.jpg?itok=OJKyR8kV" class="d-block w-100" alt="...">
+                            <div class='carousel-caption'>
+                                
+                               
+                            </div>
+                        </div>
+                        
+                        
+
+                        
+
+                    </div>
+                    
+                    
+                </div>
+               
+           
+    </div>
+
+
+                
+                
+                  
+
+
+    </section>
+
+    <!-- Places Section -->
+
+    <section id='places'>
+        <h2 class="section-heading">Meet the places where the best scientists and engineers are coming from.</h2>
+        <p class='section-para'>Keep in mind that attending a top university doesn't guarantee you success in life. Your success in life is up to you, not your environment or factors out of your control.</p>.</p>
+    
+        <div class="row">
+          <div style='background-color: #012e9e;' class='container-fluid'>
+            <img src="Images/Sem título.png" alt="engineer">
+          </div>
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>MIT</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://epicentor.com/wp-content/uploads/2018/10/MIT-Dome-Christopher-Harting.jpg" alt="">
+                <p class='car-adress'>Cambridge, MA, United States</p>
+                <button onclick="window.location.href='http://www.mit.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>Stanford University</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://abrilexame.files.wordpress.com/2016/10/size_960_16_9_stanford.jpg" alt="">
+                <p class='car-adress'>Stanford, CA, United States</p>
+               
+                <button onclick="window.location.href='https://www.stanford.edu/'" class="btn btn- btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>Cambridge University</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://miro.medium.com/max/1000/1*YiY1yK5GBk4wJzTasm5MqA.jpeg" alt="">
+                <p class='car-adress'>Cambridge, United Kindgdom</p>
+                <button onclick="window.location.href='https://www.cam.ac.uk/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+    
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>ETH Zürich</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://ethz.ch/en/news-and-events/eth-news/news/2020/03/eth-suspends-classroom-teaching/_jcr_content/imageCarousel.imageformat.carousel.147966298.jpg" alt="">
+                <p class='car-adress'>Zürich, Switzerland</p>
+                <button onclick="https://ethz.ch/en.html'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>University of Berkley</h3>
+              </div>
+              <div class="card-body">
+                <img style='height: 160px;' class='card-img' src="https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2016%2F08%2F57c342c2ad7d6_UCB_Campus.jpeg&width=717&sign=kQ5vZgvDRKRUSTkfcOEuRpUhcOLuswRtkZ_jEDAMX3o" alt="">
+                <p class='car-adress' >Berkley, CA, United States</p>
+                <button  onclick="https://www.berkeley.edu/'" class="btn btn-md btn-block btn-dark"  type="button">See more</button>
+              </div>
+            </div>
+          </div>          
+        <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>University of Oxford
+                </h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://scholarship-positions.com/wp-content/uploads/2018/10/Fully-Funded-Doctoral-Studentships-for-International-Students-at-University-of-Oxford-in-UK-2019.jpg" alt="">
+                <p class='car-adress'>Oxford, United Kindgdom</p>
+                <button onclick="window.location.href='http://www.ox.ac.uk/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+    
+              </div>
+            </div>
+          </div>
+
+    
+        </div>
+
+
+        
+
+        <!-- Nuber two -->
+
+
+        <div class="row">
+          <div style='background-color:  #5465d1;' class='container-fluid'>
+            <img src="Images/natural.png" alt="natural sciences">
+          </div>
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>MIT</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://epicentor.com/wp-content/uploads/2018/10/MIT-Dome-Christopher-Harting.jpg" alt="">
+                <p class='car-adress'>Cambridge, MA, United States</p>
+                <button onclick="window.location.href='http://www.mit.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>Harvard University</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://i.pinimg.com/originals/b2/c1/b9/b2c1b9cfa6c06af773aa40c413131026.jpg" alt="">
+                <p class='car-adress'>Cambridge, MA, United States</p>
+               
+                <button onclick="window.location.href='https://www.harvard.edu/'" class="btn btn- btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>Stanford University</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://abrilexame.files.wordpress.com/2016/10/size_960_16_9_stanford.jpg" alt="">
+                <p class='car-adress'>Stanford, CA, United States</p>
+                <button onclick="window.location.href='https://www.stanford.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+    
+              </div>
+            </div>
+          </div>
+    
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>Cambridge University</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://miro.medium.com/max/1000/1*YiY1yK5GBk4wJzTasm5MqA.jpeg" alt="">
+                <p class='car-adress'>Cambridge, United Kindgdom</p>
+                <button onclick="window.location.href='https://www.cam.ac.uk/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>University of Oxford</h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://scholarship-positions.com/wp-content/uploads/2018/10/Fully-Funded-Doctoral-Studentships-for-International-Students-at-University-of-Oxford-in-UK-2019.jpg" alt="">
+                <p class='car-adress' style='margin-bottom: 32px; margin-top: 32px;'>Oxford, United Kindgdom</p>
+                <button onclick="window.location.href='http://www.ox.ac.uk/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+              </div>
+            </div>
+          </div>          
+        <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class='card-head'>Caltech
+                </h3>
+              </div>
+              <div class="card-body">
+                <img class='card-img' src="https://www.thoughtco.com/thmb/r8d2oScyVgMk4UgPbttSAKNi5ew=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-458411541-7cc7187ad6e94a52a77b63ec40088605.jpg" alt="">
+                <p class='car-adress'>Pasadena, CA, United States</p>
+                <button onclick="window.location.href='https://www.caltech.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+    
+              </div>
+            </div>
+          </div>
+
+    
+        </div>
+
+
+                <!-- Nuber three -->
+
+
+                <div class="row">
+                  <div style='background-color:  #0079a0;' class='container-fluid'>
+                    <img src="Images/ns.png" alt="math">
+                  </div>
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class='card-head'>MIT</h3>
+                      </div>
+                      <div class="card-body">
+                        <img class='card-img' src="https://epicentor.com/wp-content/uploads/2018/10/MIT-Dome-Christopher-Harting.jpg" alt="">
+                        <p class='car-adress'>Cambridge, MA, United States</p>
+                        <button onclick="window.location.href='http://www.mit.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class='card-head'>Harvard University</h3>
+                      </div>
+                      <div class="card-body">
+                        <img class='card-img' src="https://i.pinimg.com/originals/b2/c1/b9/b2c1b9cfa6c06af773aa40c413131026.jpg" alt="">
+                        <p class='car-adress'>Cambridge, MA, United States</p>
+                       
+                        <button onclick="window.location.href='https://www.harvard.edu/'" class="btn btn- btn-block btn-dark" type="button">See more</button>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="pricing-column col-lg-4">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class='card-head'>Stanford University</h3>
+                      </div>
+                      <div class="card-body">
+                        <img class='card-img' src="https://abrilexame.files.wordpress.com/2016/10/size_960_16_9_stanford.jpg" alt="">
+                        <p class='car-adress'>Stanford, CA, United States</p>
+                        <button onclick="window.location.href='https://www.stanford.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+            
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class='card-head'>Cambridge University</h3>
+                      </div>
+                      <div class="card-body">
+                        <img class='card-img' src="https://miro.medium.com/max/1000/1*YiY1yK5GBk4wJzTasm5MqA.jpeg" alt="">
+                        <p class='car-adress'>Cambridge, United Kindgdom</p>
+                        <button onclick="window.location.href='https://www.cam.ac.uk/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class='card-head'>University of Oxford</h3>
+                      </div>
+                      <div class="card-body">
+                        <img class='card-img' src="https://scholarship-positions.com/wp-content/uploads/2018/10/Fully-Funded-Doctoral-Studentships-for-International-Students-at-University-of-Oxford-in-UK-2019.jpg" alt="">
+                        <p class='car-adress' style='margin-bottom: 32px; margin-top: 32px;'>Oxford, United Kindgdom</p>
+                        <button onclick="window.location.href='http://www.ox.ac.uk/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+                      </div>
+                    </div>
+                  </div>          
+                <div class="pricing-column col-lg-4">
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class='card-head'>Princeton University
+                        </h3>
+                      </div>
+                      <div class="card-body">
+                        <img class='card-img' src="https://blogdointercambio.stb.com.br/wp-content/uploads/2019/09/Princeton-University.jpg" alt="">
+                        <p class='car-adress' style='margin-bottom: 44px; margin-top: 44px;'>Princeton, NJ, United States</p>
+                        <button onclick="window.location.href='https://www.princeton.edu/'" class="btn btn-md btn-block btn-dark" type="button">See more</button>
+            
+                      </div>
+                    </div>
+                  </div>
+        
+            
+                </div>
+        
+    </section>
+
+    <section class="colored-section" id="cta">
+
+      <div class="container gente">
+  
+        <h3 class="big-heading">Test your your STEM skills today.</h3>
+        <h3 style='margin-left: 320px;'class="big-heading">Without commitment.</h3> 
+          
+        <button onclick="window.location.href='https://rodrigo663.github.io/quiz/'" class="btn btn-lg btn-success gre" type="button">Start</button>
+      </div>
+    </section>
+
+
+      <!-- Footer -->
+
+  <footer  class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/profile.php?id=100016899139167"><i style='margin-left: 600px;' class="social-icon fab fa-facebook-f"></i></a>
+      <a href="https://rodrigo663.github.io/My-cool-looking-website/"><i class="social-icon fas fa-globe"></i></a>
+      <a href="https://www.instagram.com/digoschroeder12/"><i class="social-icon fab fa-instagram"></i></a>
+    </div>
+    <p style='text-align: center; margin-left: 10px;'>© Copyright 2020 Brilliant</p>
+    
+  </footer>
+
+
+
+</body>
+</html>
