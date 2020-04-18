@@ -1,6 +1,3 @@
-
-
-
 /* Images */
 .rocket {
     width: 150px;
@@ -62,6 +59,7 @@
 .txt {
     font-family: 'Lato', 'sans-serif';
     font-size: 1.8rem;
+    
 }
 .title-about {
     
@@ -190,7 +188,14 @@
     padding: 100px 0;
     
 }
-
+.big-heading2 {
+    margin-left: 320px;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+   
+}
 .big-heading {
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
@@ -211,9 +216,121 @@
     margin-bottom: 50px;
    
 }
+.fa-facebook-f {
+    margin-left: 600px;
+}
+.carousel-control-prev {
+   
+    display: none;
+}
+.tech {
+    background-color: #012e9e;
+}
+.carousel-control-next {
+   
+    display: none;
+}
+@media (max-width: 1028px) {
+    #slogan {
+        text-align: center;
+    }
+    .rocket {
+        display: none;
+    }
+    .saturn {
+        position: relative;
+        margin-top: 0;
+        left: 30%;
+        
+    }
+    .container-fluid {
+        padding-left: 120px;
+        
+    }
+    .home {
+        padding-bottom: 40px;
+    }
+    .txt {
+        text-align: center;
+    }
+    #features {
+        margin-top: 4.5rem;
+        padding-bottom: 4.5rem;
 
-.btn-group {
+    }
+    .car-txt {
+        font-size: 1.5rem;
+    }
+    .car-img {
+        width: 98%;
+        height: 98%;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .indicator {
+        display:none;
+    }
+    .move {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    .carousel-control-prev-icon {
+        display: block;
+    }
+    .carousel-control-next-icon {
+        display: block;  
+    }
+    .section-heading {
+        font-size: 2.2rem;
+        line-height: 1.2;
+        font-weight:'bold';
+        
+    }
+    .section-para {
+        font-family: 'Verdana';
+        font-size: 1.3rem;
+    }
+
+    #places {
+        margin-top: 4.5rem;
+        padding: 0px;
+    }
+    .big-heading {
+        margin-left:0;
+        font-size: 2.3rem;
+        padding-top: 4.3rem;
+        margin-top: 4rem;
+
+    }
+    .big-heading2 {
+        margin-left: 0;
+        font-size: 2.3rem;
+    }
+    .gre {
+        margin-left: 0;
+        margin-top: 25px;
+        margin-bottom: 100px;
+        padding-bottom: 4.7rem;
+    }
+    #cta {
+        padding: 0px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .last-one{
+        text-align: center;
+        margin: auto;
+        position: relative;
+    }
+    .fa-facebook-f {
+        margin-left: 0;
+    }
     
 }
+
+
+
 
 
