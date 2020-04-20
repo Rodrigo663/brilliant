@@ -247,6 +247,12 @@
         padding-left: 120px;
         
     }
+    .blue-one {
+         
+        padding-left:0px;
+        padding-right:0px;
+    
+    }
     .home {
         padding-bottom: 40px;
     }
@@ -274,9 +280,7 @@
     .field-img {
       width: 100%;
     }
-    .blue-one {
-        padding: 0;
-    }
+    
     .move {
         margin-left: 20px;
         margin-bottom: 10px;
