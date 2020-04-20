@@ -271,6 +271,9 @@
     .indicator {
         display:none;
     }
+    .field-img {
+      width: 100%;
+    }
     .move {
         margin-left: 20px;
         margin-bottom: 10px;
