@@ -234,6 +234,9 @@
     #slogan {
         text-align: center;
     }
+    .less {
+        margin: 5% 0 5% 12%;
+    }
     .rocket {
         display: none;
     }
